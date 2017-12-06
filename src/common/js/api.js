@@ -6,5 +6,5 @@ export function loginByPhone (phone, password) {
     phone,
     password
   })
-  console.log(user)
+  return user
 }

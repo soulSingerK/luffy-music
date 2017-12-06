@@ -1,15 +1,20 @@
 <template>
   <div id="app">
     <router-view/>
+    <footer-l></footer-l>
   </div>
 </template>
 
 <script>
-export default {
-  name: 'app'
-}
+  import footerL from 'components/footer-l/footer-l'
+  import 'common/sass/reset.scss'
+  export default {
+    name: 'app',
+    components: {
+      footerL
+    }
+  }
 </script>
 
 <style>
-
 </style>

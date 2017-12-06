@@ -1,5 +1,5 @@
 <template>
-  
+  <p>find-music</p>
 </template>
 
 <script>
