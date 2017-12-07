@@ -3,7 +3,7 @@
 </template>
 
 <script>
-  import {loginByPhone} from 'common/js/api'
+  import {loginByPhone} from 'common/js/user'
   import {user} from './config'
   import goodStorage from 'good-storage'
   export default {

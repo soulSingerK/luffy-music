@@ -23,15 +23,14 @@
 </script>
 
 <style lang="sass" scoped>
-  .router-link-active
-    font-size: 14px
-    color: #666
+  
   #footer 
     position: fixed
     bottom: 0
     left: 0
     width: 100%
     font-size: 12px
+    background-color: #232323;
   ul
     list-style: none
     height: 40px
@@ -41,4 +40,9 @@
       width: 25%
       line-height: 40px
       text-align: center
+      a
+        color: #fff;
+        &.router-link-active
+          font-size: 14px
+          color: 
 </style>
